@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/o5t6x7pgljbm/public_html/tuitioncoin.org
+        - /bin/cp -r * $DEPLOYPATH
